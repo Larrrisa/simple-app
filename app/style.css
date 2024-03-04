@@ -1,0 +1,15 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: aqua;
+} */
+
+body {
+  padding: 20px 20px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+}

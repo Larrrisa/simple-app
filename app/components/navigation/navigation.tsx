@@ -12,10 +12,10 @@ export default function Navigation() {
       <Link className="link" href="#">
         Contact
       </Link>
-      <Link className="link" href="#">
+      <Link className="link" href="/signin">
         Sign in
       </Link>
-      <Link href="#">Sign up</Link>
+      <Link href="/signup">Sign up</Link>
     </div>
   );
 }

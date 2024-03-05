@@ -12,12 +12,14 @@ export default function Header() {
         </p>
         <button>Download Resume</button>
       </div>
-      <Image
-        src="/avatar.png"
-        width={243}
-        height={243}
-        alt="Picture of the author"
-      ></Image>
+      <div className="header__image">
+        <Image
+          src="/avatar.png"
+          width={243}
+          height={243}
+          alt="Picture of the author"
+        ></Image>
+      </div>
     </div>
   );
 }

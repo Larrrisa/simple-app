@@ -5,11 +5,13 @@ export default function Recent() {
     <div className="recent__main">
       <div className="recent__header">
         <h2>Recent posts</h2>
-        <Link href="#">View all</Link>
+        <Link href="#" className="recent__header__link">
+          View all
+        </Link>
       </div>
       <div className="recent__posts">
         <div className="recent__post">
-          <h3>Making a design system from scratch</h3>
+          <p className="recent__heading">Making a design system from scratch</p>
           <div className="recent__date">
             <span className="date">12 Feb 2020</span>
             <span>|</span>
@@ -24,7 +26,9 @@ export default function Recent() {
           </div>
         </div>
         <div className="recent__post">
-          <h3>Creating pixel perfect icons in Figma</h3>
+          <p className="recent__heading">
+            Creating pixel perfect icons in Figma
+          </p>
           <div className="recent__date">
             <span className="date">12 Feb 2020</span>
             <span>|</span>

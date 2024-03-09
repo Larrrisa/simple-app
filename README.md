@@ -15,8 +15,8 @@ bun dev
 ```
 Run json-server
 
-json-server -w db.json -p 3000
+```json-server -w db.json -p 3000```
 
-Open http://localhost:3001 to see frontend and http://localhost:3000 to see fake server data.
+Open http://localhost:3001 to see frontend and http://localhost:3000 to see backend data.
 
 

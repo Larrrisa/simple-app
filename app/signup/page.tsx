@@ -35,7 +35,6 @@ export default function signup() {
       setError(false);
       router.push("/");
     } else {
-      console.log("ошибка");
       setError(true);
       setValid("Что-то пошло не так");
     }

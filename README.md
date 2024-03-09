@@ -13,7 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
-Run json-server
+Run json-server:
 
 ```json-server -w db.json -p 3000```
 

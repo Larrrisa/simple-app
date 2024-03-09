@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Featured() {
+export default function FeaturedPosts() {
   return (
     <div className="featured__main">
       <div className="recent__header">
@@ -16,8 +16,9 @@ export default function Featured() {
             alt="Designing Dashboards"
           ></Image>
           <div className="content">
-            <p className="featured__heading">Designing Dashboards</p>
-
+            <div className="featured__heading">
+              <Link href="#">Designing Dashboards</Link>
+            </div>
             <div className="featured__info">
               <span className="year">2020</span>
               <span className="featured__tag">Dashboard</span>
@@ -39,8 +40,9 @@ export default function Featured() {
             alt="Designing Dashboards"
           ></Image>
           <div className="content">
-            <p className="featured__heading">Vibrant Portraits of 2020</p>
-
+            <div className="featured__heading">
+              <Link href="#">Vibrant Portraits of 2020</Link>
+            </div>
             <div className="featured__info">
               <span className="year">2018</span>
               <span className="featured__tag">Illustration</span>
@@ -62,8 +64,9 @@ export default function Featured() {
             alt="Designing Dashboards"
           ></Image>
           <div className="content">
-            <p className="featured__heading">36 Days of Malayalam type</p>
-
+            <div className="featured__heading">
+              <Link href="#">36 Days of Malayalam type</Link>
+            </div>
             <div className="featured__info">
               <span className="year">2018</span>
               <span className="featured__tag">Typography</span>

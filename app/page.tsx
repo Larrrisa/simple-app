@@ -1,17 +1,18 @@
-import Image from "next/image";
-import Navigation from "./components/navigation/navigation";
-import Header from "./components/header/header";
-import Recent from "./components/recent/recent";
-import Featured from "./components/featured/featured";
-import Footer from "./components/footer/footer";
+"use client";
+
+import Navigation from "./components/navigation";
+import Header from "./components/header";
+import RecentPosts from "./components/recent";
+import FeaturedPosts from "./components/featured";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <div className="main">
       <Navigation />
       <Header />
-      <Recent />
-      <Featured />
+      <RecentPosts />
+      <FeaturedPosts />
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Recent() {
+export default function RecentPosts() {
   return (
     <div className="recent__main">
       <div className="recent__header">
@@ -11,7 +11,9 @@ export default function Recent() {
       </div>
       <div className="recent__posts">
         <div className="recent__post">
-          <p className="recent__heading">Making a design system from scratch</p>
+          <div className="recent__heading">
+            <Link href="#">Making a design system from scratch</Link>
+          </div>
           <div className="recent__date">
             <span className="date">12 Feb 2020</span>
             <span>|</span>
@@ -26,9 +28,9 @@ export default function Recent() {
           </div>
         </div>
         <div className="recent__post">
-          <p className="recent__heading">
-            Creating pixel perfect icons in Figma
-          </p>
+          <div className="recent__heading">
+            <Link href="#">Creating pixel perfect icons in Figma</Link>
+          </div>
           <div className="recent__date">
             <span className="date">12 Feb 2020</span>
             <span>|</span>
